@@ -1,29 +1,49 @@
-# vue-crash-2025
+# Budgetwise Web Developer Challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my submission fir the Budgetwise Web Developer Challenge. The challenge required implementing a partially functional rendition of the Budgetwise Home Page, where users can manage budgets and track spending across various categories.
 
-## Recommended IDE Setup
+## Implementation Approach
+I approached this challenge as an opportunity to refresh my Vue.js skills after a 2-year gap in coding. Each element of the UI was implemented as a standalone component, though in a production environment I would have further organized these into parent/child component relationships.
+The implementation focuses on:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Aimed for precise UI replication following the provided Figma designs
+Component-based architecture
+Dynamic data rendering
+Interactive transaction addition
 
-## Customize configuration
+✅  Full navigation bar with user profile  
+✅  Budget overview with visualizations  
+✅  Category listing with progress bars  
+✅  Dynamic coloring for budget status (underspent/overspent)  
+✅  Transaction history display  
+✅  Add transaction functionality  
+✅  6-month spending snapshot with data visualization  
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
 
-## Project Setup
+Vue.js 3  
+Tailwind  
+Local development server  
 
-```sh
-npm install
-```
+## Development Challenges
+Some of the key challenges faced and overcome during this project:
 
-### Compile and Hot-Reload for Development
+Ensuring pixel-perfect alignment of category items and progress bars  
+Implementing the full-width navigation bar while maintaining centered content  
+Reconnecting with coding best practices after a period away from coding
 
-```sh
-npm run dev
-```
+## Running the Project
 
-### Compile and Minify for Production
+Clone the repository  
+`git clone https://github.com/yourusername/budgetwise-challenge.git`
 
-```sh
-npm run build
-```
+# Install dependencies
+`npm install`
+
+# Start development server
+`npm run dev`
+
+Navigate to http://localhost:3000 in your browser
+
+
+Note: The original design and requirements belong to Budgetwise.
